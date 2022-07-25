@@ -1,0 +1,3 @@
+BYE sip:callee@u2.domain.com SIP/2.0
+Route: <sip:p1.example.com;lr>,<sip:p2.domain.com;lr>
+

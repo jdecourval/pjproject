@@ -1,0 +1,6 @@
+INVITE F1     INVITE sip:UserB@wcom.com SIP/2.0
+A->Proxy      Via: SIP/2.0/UDP here.com:5060
+From: TheBigGuy <sip:UserA@here.com>
+To: TheLittleGuy <sip:UserB@wcom.com>
+Call-Id: 12345600@here.com
+

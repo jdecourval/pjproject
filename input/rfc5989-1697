@@ -1,0 +1,7 @@
+PUBLISH sip:23ec24c5@example.com SIP/2.0
+To: <sip:23ec24c5@example.com>
+From: <sip:webserver@example.com>;tag=03-5gbK652_jNMr-b8-11Z_G-NsLR
+Contact: <sip:webserver@203.0.113.99>
+Event: http-monitor
+Content-Type: message/http
+

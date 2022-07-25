@@ -1,0 +1,12 @@
+INVITE sip:bob@example.com SIP/2.0
+To: Bob <sip:bob@example.com>
+From: Alice <sip:alice@example.com>;tag=1928301774
+Call-ID: a84b4c76e66710
+CSeq: 1 INVITE
+Max-Forwards: 70
+Date: Sun, 21 May 2006 13:02:03 GMT
+Contact: <sip:alice@alicepc.example.com>
+Content-Type: multipart/related; type="application/sdp";
+boundary="boundary71"
+Content-Length: [length]
+

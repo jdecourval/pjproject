@@ -1,0 +1,10 @@
+NOTIFY sip:application@example.com SIP/2.0
+Via: SIP/2.0/UDP proxy.example.com
+Max-Forwards: 70
+To: <sip:application@example.com>
+From: <sip:endpoint@example.net>
+Call-Id: 439hu409h4h09903fj0ioij
+Subscription-State: active; expires=7200
+CSeq: 49851 NOTIFY
+Event: kpml
+

@@ -1,0 +1,17 @@
+ACK sip:bob@client.biloxi.example.com SIP/2.0
+Via: SIP/2.0/UDP client.atlanta.example.com:5060;branch=z9hG4bK74b44
+Max-Forwards: 70
+Route: <sip:ss1.atlanta.example.com;lr>,
+<sip:ss2.biloxi.example.com;lr>
+From: Alice <sip:alice@atlanta.example.com>;tag=9fxced76sl
+To: Bob <sip:bob@biloxi.example.com>;tag=9103874
+Call-ID: 2xTb9vxSit55XU7p8@atlanta.example.com
+CSeq: 3 ACK
+Proxy-Authorization: Digest username="alice",
+realm="atlanta.example.com",
+nonce="wf84f1ceczx41ae6cbe5aea9c8e88d359", opaque="",
+uri="sip:bob@biloxi.example.com",
+response="42ce3cef44b22f50c6a6071bc8"
+Proxy-Authorization: Digest username="alice",
+realm="biloxi.example.com",
+

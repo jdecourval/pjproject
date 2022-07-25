@@ -1,0 +1,6 @@
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS ss1.example.com:5061
+;branch=z9hG4bK837493
+;received=192.0.2.54
+Via: SIP/2.0/TLS client.atlanta.example.com:5061
+

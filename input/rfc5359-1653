@@ -1,0 +1,12 @@
+SIP/2.0 200 OK
+Via: SIP/2.0/TLS client.atlanta.example.com:5061
+;branch=z9hG4bK74b8G
+;received=192.0.2.103
+From: Alice <sips:alice@atlanta.example.com>;tag=837348234
+To: Bob <sips:bob@biloxi.example.com>;tag=341123
+Call-ID: 4524526232@atlanta.example.com
+Expires: 60
+CSeq: 1 SUBSCRIBE
+Contact: sips:bob@client.biloxi.example.com
+Content-Length: 0
+

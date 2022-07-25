@@ -1,0 +1,7 @@
+SUBSCRIBE sip:tests@xcap.example.com SIP/2.0
+...
+Accept: application/xcap-diff+xml
+Event: xcap-diff; diff-processing=aggregate
+Content-Type: application/resource-lists+xml
+Content-Length: [XXX]
+

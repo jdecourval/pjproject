@@ -1,0 +1,9 @@
+SIP/2.0 486 Busy Here
+Via: SIP/2.0/TCP 192.0.2.4:5060;branch=z9hG4bK-ik80k7g-1
+Via: SIP/2.0/TCP 192.0.2.1:5060;branch=z9hG4bK-74bf9
+From: Alice <sip:+15551001@example.com;user=phone>;tag=9fxced76sl
+To: sip:+15555551002@example.com;user=phone;tag=09xde23d80
+Call-ID: c3x842276298220188511
+CSeq: 1 INVITE
+Content-Length: 0
+

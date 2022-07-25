@@ -1,0 +1,3 @@
+SIP/2.0 404 The number you have dialed is not in service
+Error-Info: <sip:not-in-service-recording@atlanta.com>
+

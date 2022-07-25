@@ -1,0 +1,12 @@
+ACK sip:BobsPTTServer.example.com SIP/2.0
+Via: SIP/2.0/UDP
+AlicesConferenceFocus.example.org;branch=z9hG4bK4721d8
+Max-Forwards: 70
+To: "Bob"
+<sip:bob@example.com>;tag=a6670811
+From: "Alice's Friends"
+<sip:FriendsOfAlice@example.org>;tag=2178309898
+Call-ID: e60a4c784b6716
+CSeq: 301166605 ACK
+Content-Length: 0
+

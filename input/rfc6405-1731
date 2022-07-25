@@ -1,0 +1,14 @@
+INVITE sip:+19175550100@example.com;user=phone SIP/2.0
+Via: SIP/2.0/TCP client.example.com:5060
+;branch=z9hG4bK74bf9
+Max-Forwards: 10
+From: Alice <sip:+14085550101@example.com;user=phone>
+;tag=12345
+To: Bob <sip:+19175550100@example.com;user=phone>
+Call-ID: abcde
+CSeq: 1 INVITE
+<allOneLine>
+Contact: <sip:+19175550100@client.example.com;user=phone;
+transport=tcp>
+</allOneLine>
+

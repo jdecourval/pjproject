@@ -1,0 +1,13 @@
+NOTIFY sip:A.example SIP/2.0
+Via: SIP/2.0/UDP A.example;branch=z9hG4bK3802394232
+To: <sip:A.example>;tag=23490234
+From: <sip:B.example>;tag=5923020
+Call-ID: 2304098023@A.example
+CSeq: 29420342 NOTIFY
+Event: refer;id=2342093
+Subscription-State: terminated
+Max-Forwards: 70
+Contact: <sip:B.example>
+Content-Type: message/sipfrag
+Content-Length: (appropriate value)
+

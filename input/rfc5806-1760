@@ -1,0 +1,12 @@
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP p3.isp.com
+Via: SIP/2.0/UDP p2.isp.com
+Via: SIP/2.0/UDP p1.isp.com
+Via: SIP/2.0/UDP alice-pc.isp.com
+Contact: carol@uas1.nightservice.com
+From: sip:alice@isp.com
+To: <sip:pizza@p1.isp.com>;tag=uas1
+Call-ID: 12345600@alice-pc.isp.com
+CSeq: 1 INVITE
+Content-Type: application/sdp
+

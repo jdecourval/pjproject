@@ -1,0 +1,7 @@
+INVITE sip:callee@u2.domain.com SIP/2.0
+Contact: sip:caller@u1.example.com
+Record-Route: <sip:p4.domain.com;lr>
+Record-Route: <sip:p3.middle.com>
+Record-Route: <sip:p2.example.com;lr>
+Record-Route: <sip:p1.example.com;lr>
+

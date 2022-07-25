@@ -1,0 +1,16 @@
+SIP/2.0 200 OK
+<allOneLine>
+Via: SIP/2.0/TLS proxy.example.com;branch=z9hG4bK776asdhdu;received=192.
+0.2.2
+</allOneLine>
+<allOneLine>
+Via: SIP/2.0/TLS ua2.example.com;branch=z9hG4bKnashdt1;received=192.0.2.
+3
+</allOneLine>
+From: Carol <sip:Carol@example.com>;tag=2ge46ab5
+To: Alice <sip:Alice@example.com>;tag=13adc987
+Call-ID: 12345600@ua1.example.com
+CSeq: 2 UPDATE
+Contact: <sip:Alice@ua1.example.com>
+Content-Length: 0
+

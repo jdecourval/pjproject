@@ -1,0 +1,6 @@
+INVITE sip:callee@ipv6.domain.com SIP/2.0
+Record-Route: <sip:[2001:DB8::801:201:2ff:fe94:8e10];lr>
+Via: SIP/2.0/UDP sip:[2001:DB8::801:201:2ff:fe94:8e10]
+Via: SIP/2.0/UDP 192.0.2.4
+Contact: sip:caller@u1.example.com
+

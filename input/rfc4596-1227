@@ -1,0 +1,4 @@
+REGISTER sip:example.com SIP/2.0
+To: sip:Y@example.com
+Contact: <sip:Y1@pc.example.com>;languages="en"
+

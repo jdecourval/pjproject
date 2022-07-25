@@ -1,0 +1,5 @@
+ACK sip:bob@[2001:db8::33] SIP/2.0
+From: Alice <sip:alice@atlanta.example.com>;tag=1234
+To: Bob <sip:bob@biloxi.example.com>;tag=4567
+(both Route headers have been removed by the proxy)
+

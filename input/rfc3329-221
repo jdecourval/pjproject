@@ -1,0 +1,7 @@
+INVITE sip:proxy.example.com SIP/2.0
+Security-Verify: ipsec-ike;q=0.1
+Security-Verify: tls;q=0.2
+Route: sip:callee@domain.com
+Require: sec-agree
+Proxy-Require: sec-agree
+

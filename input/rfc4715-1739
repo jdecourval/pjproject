@@ -1,0 +1,4 @@
+INVITE tel:+17005554141;isub=12345;isub-encoding=nsap-ia5 SIP/2.0
+To: <tel:+17005554141;isub=12345;isub-encoding=nsap-ia5>
+From: "Bob"<sip:bob@biloxi.example.com>;tag=1928301774
+

@@ -1,0 +1,9 @@
+SIP/2.0 422 Session Interval Too Small
+Via: SIP/2.0/TLS pc33.atlanta.example.com;branch=z9hG4bKnashds8
+;received=192.0.2.1
+Min-SE: 3600
+To: Bob <sips:bob@biloxi.example.com>;tag=9a8kz
+From: Alice <sips:alice@atlanta.example.com>;tag=1928301774
+Call-ID: a84b4c76e66710
+CSeq: 314159 INVITE
+

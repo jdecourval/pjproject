@@ -1,0 +1,20 @@
+REFER sip:conf-123@example.com;gruu;opaque=hha9s8d-999a  SIP/2.0
+Via: SIP/2.0/TCP client.chicago.example.com
+;branch=z9hG4bKhjhs8ass83
+Max-Forwards: 70
+To: "Conference 123" <sip:conf-123@example.com>
+From: Carol <sip:carol@chicago.example.com>;tag=32331
+Call-ID: d432fa84b4c76e66710
+CSeq: 2 REFER
+Contact: <sip:carol@client.chicago.example.com>
+Refer-To: <cid:cn35t8jf02@example.com>
+Refer-Sub: false
+Require: multiple-refer, norefersub
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, SUBSCRIBE, NOTIFY
+Allow-Events: dialog
+Accept: application/sdp, message/sipfrag
+Content-Type: application/resource-lists+xml
+Content-Disposition: recipient-list
+Content-Length: 362
+Content-ID: <cn35t8jf02@example.com>
+

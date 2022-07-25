@@ -1,0 +1,3 @@
+ACK sips:bob@client2.biloxi.example.com SIP/2.0
+Via: SIP/2.0/TLS client.atlanta.example.com:5061
+

@@ -1,0 +1,9 @@
+INVITE  sip:faxback@pint.mailorder.com  SIP/2.0
+Via: SIP/2.0/UDP 169.130.12.5
+From: sip:john.jones.3@chinet.net
+To: sip:1-800-3292225@steam.edu;user=phone;phone-context=+1
+Call-ID: 19971205T234505.66.79@chinet.net
+CSeq: 4713 INVITE
+Content-type: application/sdp
+Content-Length: 220
+

@@ -1,0 +1,7 @@
+SIP/2.0 200 OK
+To: <sip:conf-factory@example.org>;tag=def
+From: <sip:bob@example.org>;tag=abc
+Call-Id: 999@b.example.org
+CSeq: 1INVITE
+Contact: <sip:conf456@conf-srv2.example.org>;isfocus
+

@@ -1,0 +1,9 @@
+SIP/2.0 202 ACCEPTED
+Via: SIP/2.0/UDP pc33.example.org;branch=z9hG4bKnashds8
+To: <sip:AlicesConferenceFactoryURI.example.org>;tag=c70ef99
+From: "Alice" <sip:alice@example.org>;tag=1928301774
+Call-ID: a84b4c76e66710
+CSeq: 314160 REFER
+Contact: <sip:AlicesPre-establishedSession@
+AlicesPTTServer.example.org>
+

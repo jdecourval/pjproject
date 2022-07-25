@@ -1,0 +1,6 @@
+SIP/2.0 486 Busy
+To: <sip:bob@example.org>
+From: <sip:alice@example.org>;tag=iii
+Call-Id: 777@a.example.org
+CSeq: 1 INVITE
+

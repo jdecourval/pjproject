@@ -1,0 +1,4 @@
+REGISTER sip:P1 SIP/2.0
+To: <sip:a@P1>
+Contact: <sip:a@P1;unknown-param=whack>,<sip:a@P1;unknown-param=thud>
+

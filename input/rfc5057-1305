@@ -1,0 +1,9 @@
+NOTIFY sip:aliceinstance@alice.example.com SIP/2.0
+Event: presence
+Subscription-State: active;expires=600
+Call-ID: alicecallid1@alice.example.com
+From: <sip:Bob@bob.example.com>;tag=bobtag2
+To: <sip:Alice@alice.example.com>;tag=alicetag2
+CSeq: 100 NOTIFY
+Contact: <sip:bobinstance@bob.example.com>
+

@@ -1,0 +1,18 @@
+INVITE sip:B@pc.example.com SIP/2.0
+Via: SIP/2.0/TLS app.example.com;branch=z9hG4bK97sh
+Via: SIP/2.0/TLS host.example.com;branch=z9hG4bK9zz8
+From: Caller <sip:A@example.com>;tag=kkaz-
+To: Callee <sip:B@example.org>
+Call-ID: fa77as7dad8-sd98ajzz@host.example.com
+CSeq: 1 INVITE
+Max-Forwards: 70
+Supported: gruu, tdialog
+Allow: INVITE, OPTIONS, BYE, CANCEL, ACK, REFER
+Accept: application/sdp, text/html
+<allOneLine>
+Contact: <sip:A@example.com;gr=urn:uuid:f81d4fae
+-7dec-11d0-a765-00a0c91e6bf6>;schemes="http,sip"
+</allOneLine>
+Content-Length: ...
+Content-Type: application/sdp
+

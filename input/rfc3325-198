@@ -1,0 +1,10 @@
+INVITE sip:+14085551212@cisco.com SIP/2.0
+Via: SIP/2.0/TCP useragent.cisco.com;branch=z9hG4bK-124
+To: <sip:+14085551212@cisco.com>
+From: "Anonymous" <sip:anonymous@anonymous.invalid>;tag=9802748
+Call-ID: 245780247857024504
+CSeq: 2 INVITE
+Max-Forwards: 70
+Privacy: id
+Proxy-Authorization: .... realm="sip.cisco.com" user="fluffy"
+

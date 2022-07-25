@@ -1,0 +1,10 @@
+INVITE sip:+14085551212@proxy. pstn.example SIP/2.0
+Via: SIP/2.0/TCP useragent.example.com;branch=z9hG4bK-124
+Via: SIP/2.0/TCP proxy.example.com;branch=z9hG4bK-abc
+To: <sip:+14085551212@example.com>
+From: "Anonymous" <sip:anonymous@anonymous.invalid>;tag=9802748
+Call-ID: 245780247857024504
+CSeq: 2 INVITE
+Max-Forwards: 69
+P-Asserted-Service: urn:urn-7:3gpp-service.exampletelephony.version1
+

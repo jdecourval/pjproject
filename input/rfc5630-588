@@ -1,0 +1,11 @@
+ACK sip:bob@bobphone.example.com SIP/2.0
+Via: SIP/2.0/TCP alice-1.example.net:5060;branch=z9hG4bKprout
+Max-Forwards: 70
+To: Bob <sip:bob@example.com>;tag=5551212
+From: Alice <sip:alice@example.net>;tag=8675309
+Call-ID: lzksjf8723k@sodk6587
+CSeq: 1 ACK
+Route: <sip:proxya.example.net;lr>, <sip:pb.example.com;lr>,
+<sip:psodkfsj+34+kklsL+uJH-Xm816k09Kk@edge.example.com;lr;ob>
+Content-Length: 0
+

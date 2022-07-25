@@ -1,0 +1,12 @@
+REGISTER sip:example.com SIP/2.0
+Via: SIP/2.0/TCP 192.0.2.2;branch=z9hG4bK-bad0ce-11-1036
+Max-Forwards: 70
+From: Bob <sip:bob@example.com>;tag=d879h76
+To: Bob <sip:bob@example.com>
+Call-ID: 8921348ju72je840.204
+CSeq: 1 REGISTER
+Supported: path, outbound
+Contact: <sip:line1@192.0.2.2;transport=tcp>; reg-id=1;
+;+sip.instance="<urn:uuid:00000000-0000-1000-8000-000A95A0E128>"
+Content-Length: 0
+

@@ -1,0 +1,10 @@
+ACK sip:bob@192.0.2.4 SIP/2.0
+Via: SIP/2.0/UDP BobsPTTServer.example.com;branch=z9hG4bKa27bc93
+Max-Forwards: 70
+To: "Bob" <sip:bob@example.com>;tag=d28119a
+From: "Alice's Friends"
+<sip:FriendsOfAlice@example.org>;tag=781299330
+Call-ID: 6eb4c66a847710
+CSeq: 478209 ACK
+Content-Length: 0
+

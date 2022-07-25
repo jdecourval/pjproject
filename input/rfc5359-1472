@@ -1,0 +1,14 @@
+NOTIFY sips:bob@client.biloxi.example.com SIP/2.0
+Via: SIP/2.0/TLS server.example.com:5061
+;branch=z9hG4bK74bT6
+To: Bob <sips:bob@biloxi.example.com>;tag=02134
+Max-Forwards: 70
+From: Park Server <sips:park@server.example.com>;tag=56323
+Call-ID: 4802029847@biloxi.example.com
+CSeq: 1 NOTIFY
+Event: refer
+Contact: <sips:park@server.example.com>
+Subscription-State: active;expires=60
+Content-Type: message/sipfrag
+Content-Length: ...
+

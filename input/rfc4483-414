@@ -1,0 +1,10 @@
+MESSAGE sip:boromir@example.com SIP/2.0
+From: <sip:gandalf@example.net>;tag=34589882
+To: <sip:boromir@example.com>
+Call-ID: 9242892442211117@example.net
+CSeq: 388 MESSAGE
+Accept: message/external-body, text/html, text/plain,
+image/*, text/x-emoticon
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary=zz993453
+

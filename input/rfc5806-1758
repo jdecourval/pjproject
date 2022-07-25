@@ -1,0 +1,10 @@
+INVITE sip:Voicemail@isp.com SIP/2.0
+Via: SIP/2.0/UDP alice-pc.isp.com
+From: sip:alice@isp.com
+To: sip:Bob@p1.isp.com
+Call-ID: 12345600@alice-pc.isp.com
+CSeq: 1 INVITE
+Diversion: <sip:Bob@uas1.isp.com>
+;reason=do-not-disturb
+Content-Type: application/sdp
+

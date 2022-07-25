@@ -1,0 +1,7 @@
+ACK sip:uas1.nightservice.com SIP/2.0
+Via: SIP/2.0/UDP alice-pc.isp.com
+From: sip:alice@isp.com
+To: <sip:roses@p1.isp.com>;tag=p4
+Call-ID: 12345600@alice-pc.isp.com
+CSeq: 1 INVITE
+

@@ -1,0 +1,7 @@
+SIP/2.0 302 Moved temporarily
+From: sip:charlie@caller.com
+To: Alice <sip:alice@anywhere.com>
+Call-ID: 27182@caller.com
+CSeq: 1 INVITE
+Contact: <sip:alice@anywhere.com:5080;maddr=spare.caller.com>
+

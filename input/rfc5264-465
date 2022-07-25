@@ -1,0 +1,7 @@
+PUBLISH sip:resource@example.com SIP/2.0
+...
+Event: presence
+Expires: 3600
+Content-Type: application/pidf-diff+xml
+Content-Length: 1457
+

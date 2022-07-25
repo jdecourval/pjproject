@@ -1,0 +1,6 @@
+SIP/2.0 200 OK
+To: <sip:msgn@example.com;gr=urn:uuid:jtr5623n;tag=087js>;tag=087js
+From: <sip:bob@example.com>;tag=786
+Call-ID: 893rty@mn.example.com
+Content-Type: application/sdp
+

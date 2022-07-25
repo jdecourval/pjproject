@@ -1,0 +1,5 @@
+INVITE sip:alice@2001:db8::10 SIP/2.0
+Record-Route: <sip:2001:db8::1;lr>
+Record-Route: <sip:192.0.2.1;lr>
+...
+

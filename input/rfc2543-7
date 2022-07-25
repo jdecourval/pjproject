@@ -1,0 +1,3 @@
+INVITE sip:aw@example.com SIP/2.0
+WWW-Authenticate: Basic realm="business"
+

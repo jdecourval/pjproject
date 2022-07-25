@@ -1,0 +1,6 @@
+ACK sip:VM@example.com SIP/2.0
+Via: SIP/2.0/UDP example.net:5060
+From: BigGuy <sip:User1@example.net>
+To: LittleGuy<sip:UserA@example.com>;tag=3
+Call-Id: 12345600@example.net
+

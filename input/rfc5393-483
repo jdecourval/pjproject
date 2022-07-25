@@ -1,0 +1,4 @@
+REGISTER sip:P2 SIP/2.0
+To: <sip:b@P2>
+Contact: <sip:a@P1>, <sip:b@P1>
+

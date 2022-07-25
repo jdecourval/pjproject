@@ -1,0 +1,11 @@
+SUBSCRIBE sip:joe@example.com SIP/2.0
+Via: SIP/2.0/UDP app.example.com;branch=z9hG4bKnashds7
+From: sip:app.example.com;tag=123aa9
+To: sip:joe@example.com
+Call-ID: 9987@app.example.com
+CSeq: 9887 SUBSCRIBE
+Contact: sip:app.example.com
+Event: reg
+Max-Forwards: 70
+Accept: application/reginfo+xml
+

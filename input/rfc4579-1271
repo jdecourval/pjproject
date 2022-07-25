@@ -1,0 +1,17 @@
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP client.chicago.example.com
+;branch=z9hG4bKhjhs8ass83;received=192.0.2.4
+To: <sip:3402934234@conf.example.com>;tag=733413
+From: Carol <sip:carol@chicago.example.com>;tag=32331
+Call-ID: d432fa84b4c76e66710
+CSeq: 45 INVITE
+Contact: <sip:3402934234@conf.example.com>;isfocus
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER,
+SUBSCRIBE, NOTIFY
+Allow-Events: dialog, conference
+Accept: application/sdp, application/conference-info+xml,
+message/sipfrag
+Supported: replaces, join, gruu
+Content-Type: application/sdp
+Content-Length: ...
+

@@ -1,0 +1,11 @@
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP watcherhost.example.com;branch=z9hG4bKnashds7
+;received=192.0.2.1
+To: <sip:resource@example.com>;tag=ffd2
+From: <sip:user@example.com>;tag=xfg9
+Call-ID: 2010@watcherhost.example.com
+CSeq: 17766 SUBSCRIBE
+Expires: 600
+Contact: sip:server.example.com
+Content-Length: 0
+

@@ -1,0 +1,4 @@
+INVITE sip:Y@example.com SIP/2.0
+Reject-Contact: *;attendant
+Reject-Contact: *;automata
+

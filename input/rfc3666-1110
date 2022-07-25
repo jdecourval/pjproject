@@ -1,0 +1,10 @@
+SIP/2.0 200 OK
+Via: SIP/2.0/TCP ngw1.a.example.com:5060;branch=z9hG4bKlueha2
+;received=192.0.2.103
+Record-Route: <sip:ss1.a.example.com;lr>
+From: <sip:+13145551111@ngw1.a.example.com;user=phone>;tag=7643kals
+To: <sip:+19725552222@ss1.a.example.com;user=phone>;tag=314159
+Call-ID: 4Fde34wkd11wsGFDs3@ngw1.a.example.com
+CSeq: 1 INVITE
+Contact: <sip:bob@client.b.example.com;transport=tcp>
+

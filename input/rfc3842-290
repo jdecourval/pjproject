@@ -1,0 +1,9 @@
+SIP/2.0 200 OK
+To: <sip:alice@example.com>;tag=4442
+From: <sip:alice@example.com>;tag=78923
+Date: Mon, 10 Jul 2000 03:55:07 GMT
+Call-Id: 1349882@alice-phone.example.com
+CSeq: 4 SUBSCRIBE
+Expires: 86400
+Content-Length: 0
+

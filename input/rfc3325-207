@@ -1,0 +1,8 @@
+SIP/2.0 407 Proxy Authorization
+Via: SIP/2.0/TCP useragent.cisco.com;branch=z9hG4bK-a111
+To: <sip:bob@biloxi.com>;tag=123456
+From: "Anonymous" <sip:anonymous@anonymous.invalid>;tag=9802748
+Call-ID: 245780247857024504
+CSeq: 1 INVITE
+Proxy-Authenticate: .... realm="cisco.com"
+

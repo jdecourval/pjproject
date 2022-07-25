@@ -1,0 +1,16 @@
+NOTIFY sip:carol@chicago.example.com SIP/2.0
+Via: SIP/2.0/UDP ms5.conf.example.com;branch=z9hG4bK3343d1
+Max-Forwards: 70
+To: Carol <sip:carol@chicago.example.com>;tag=43524545
+From: <sip:3402934234@conf.example.com>;tag=a3343df32
+Call-ID: k3l43id034ksereree
+CSeq: 34321 NOTIFY
+Contact: <sip:3402934234@conf.example.com>;isfocus
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER,
+SUBSCRIBE, NOTIFY
+Event: conference
+Accept: application/sdp, message/sipfrag
+Subscription-State: active;expires=3600
+Supported: replaces, join, gruu
+Content-Type: application/conference-info+xml
+

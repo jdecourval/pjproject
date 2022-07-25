@@ -1,0 +1,5 @@
+INVITE tel:+17005554141;isub=12345 SIP/2.0
+
+Note: SETUP is an ISDN message used between ISDN switch and
+ISDN end terminal.
+

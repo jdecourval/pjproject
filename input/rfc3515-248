@@ -1,0 +1,5 @@
+SIP/2.0 200 OK".  If the
+notifier wishes to return additional non-SIP protocol specific
+information about the status of the request, it may place it in the
+body of the sipfrag message.
+

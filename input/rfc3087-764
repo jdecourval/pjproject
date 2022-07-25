@@ -1,0 +1,13 @@
+SIP/2.0 200 OK
+VM->Proxy     Via: SIP/2.0/UDP wcom.com:5060; branch=1
+Via: SIP/2.0/UDP here.com:5060
+Record-Route: <sip:UserB-VM@wcom.com>
+From: TheBigGuy <sip:UserA@here.com>
+To: TheLittleGuyVoiceMail <sip:UserB-
+VM@wcom.com>;tag=3145678
+Call-Id: 12345600@here.com
+CSeq: 1 INVITE
+Contact: TheLittleGuyVoiceMail <sip:UserB-
+dep@vm.wcom.com>
+Content-Type: application/sdp
+

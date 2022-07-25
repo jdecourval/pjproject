@@ -1,0 +1,6 @@
+NOTIFY sip:boaiidfjjereis@example.com SIP/2.0
+Subscription-State: terminated;reason=noresource
+Call-ID: 39fa99r0329493asdsf3n@bob.example.com
+Contact: <sip:alice@example.com;gr=urn:uuid:(Alice's UA's bits)>
+Content-Type: message/sipfrag
+

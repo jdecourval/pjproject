@@ -1,0 +1,11 @@
+SIP/2.0 487 Request Terminated
+Via: SIP/2.0/TCP eb.example.com:5060;branch=z9hG4bKtroubaba
+Via: SIP/2.0/TCP pb.example.com:5060;branch=z9hG4bKbalouba.2
+Via: SIP/2.0/TCP proxya.example.net:5060;branch=z9hG4bKpouet
+Via: SIP/2.0/TCP alice-1.example.net:5060;branch=z9hG4bKprout
+To: Bob <sip:bob@example.com>
+From: Alice <sip:alice@example.net>;tag=8675309
+Call-ID: lzksjf8723k@sodk6587
+CSeq: 1 INVITE
+Content-Length: 0
+

@@ -1,0 +1,3 @@
+INVITE sip:bob@biloxi.com SIP/2.0
+Authorization: Digest realm="biloxi.com", <...>
+

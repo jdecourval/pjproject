@@ -1,0 +1,6 @@
+INVITE sip:bob@ua2.biloxi.example.com;transport=udp SIP/2.0
+Record-Route: <sip:192.0.2.1;lr> (NO transport param)
+From: Alice <sip:alice@atlanta.example.com>;tag=1234
+To: Bob <sip:bob@biloxi.example.com>
+Contact: <sip:alice@ua1.atlanta.example.com;transport=tcp>
+

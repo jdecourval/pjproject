@@ -1,0 +1,7 @@
+SIP/2.0 200 OK
+To: <sip:bob@example.org>
+From: <sip:alice@example.org>;tag=7743
+Call-ID: 425928@phone.example.org
+CSeq: 1 CANCEL
+Contact: <sip:bob@bobster.example.org>
+

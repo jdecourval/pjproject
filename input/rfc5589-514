@@ -1,0 +1,21 @@
+REFER sips:3ld812adkjw@biloxi.example.com;gr=3413kj2ha SIP/2.0
+Via: SIP/2.0/TLS pc33.atlanta.example.com;branch=z9hG4bK392039842
+Max-Forwards: 70
+To: <sips:3ld812adkjw@biloxi.example.com;gr=3413kj2ha>
+From: <sips:transferor@atlanta.example.com>;tag=1928301774
+Call-ID: a84b4c76e66710
+CSeq: 314160 REFER
+<allOneLine>
+Refer-To: <sips:482n4z24kdg@chicago.example.com;gr=8594958
+?Replaces=090459243588173445%3Bto-tag%3D9m2n3wq%3Bfrom-tag
+%3D763231&Require=replaces>
+</allOneLine>
+Supported: gruu, replaces, tdialog
+Require: tdialog
+Referred-By: <sips:transferor@atlanta.example.com>
+;cid="20398823.2UWQFN309shb3@atlanta.example.com"
+Target-Dialog: 592435881734450904;local-tag=9m2n3wq;remote-tag=763231
+Contact: <sips:4889445d8kjtk3@atlanta.example.com;gr=723jd2d>
+Content-Type: multipart/mixed; boundary=unique-boundary-1
+Content-Length: ...
+

@@ -1,0 +1,6 @@
+BYE sip:caller@u1.example.com SIP/2.0
+Route: <sip:p4.domain.com;lr>
+Route: <sip:p3.middle.com>
+Route: <sip:p2.example.com;lr>
+Route: <sip:p1.example.com;lr>
+

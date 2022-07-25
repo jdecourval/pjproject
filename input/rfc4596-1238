@@ -1,0 +1,4 @@
+REGISTER sip:example.com SIP/2.0
+To: sip:Y@example.com
+Contact: <sip:Y3@pc3.example.com>;attendant;automata;q=0.5
+

@@ -1,0 +1,11 @@
+REGISTER sip:example.net SIP/2.0
+From: <sip:user_aor_1@example.net>;tag=5ab4
+To: <sip:user_aor_1@example.net>
+Call-ID: faif9a@ua.example.com
+CSeq: 23001 REGISTER
+Contact: <sip:ua.example.com>
+;expires=3600
+;+sip.instance="<urn:uuid:f81d4fae-7dec-11d0-a765-00a0c91e6bf6>"
+Supported: path, gruu
+Content-Length: 0
+

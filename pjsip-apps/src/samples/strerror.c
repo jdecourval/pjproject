@@ -1,5 +1,5 @@
 /* $Id$ */
-/* 
+/*
  * Copyright (C) 2008-2011 Teluu Inc. (http://www.teluu.com)
  * Copyright (C) 2003-2008 Benny Prijono <benny@prijono.org>
  *
@@ -15,7 +15,7 @@
  *
  * You should have received a copy of the GNU General Public License
  * along with this program; if not, write to the Free Software
- * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA 
+ * Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
 /**
@@ -26,46 +26,67 @@
  * \includelineno strerror.c
  */
 
-
-#include <pjlib.h>
 #include <pjlib-util.h>
-#include <pjsip.h>
+#include <pjlib.h>
 #include <pjmedia.h>
 #include <pjnath.h>
+#include <pjsip.h>
+#include <pjsip/sip_parser.h>
 #include <pjsip_simple.h>
+
+#ifndef __AFL_FUZZ_TESTCASE_LEN
+ssize_t fuzz_len;
+#define __AFL_FUZZ_TESTCASE_LEN fuzz_len
+unsigned char fuzz_buf[1024000];
+#define __AFL_FUZZ_TESTCASE_BUF fuzz_buf
+#define __AFL_FUZZ_INIT() void sync(void)
+#define __AFL_LOOP(x)                                                          \
+  ((fuzz_len = read(0, fuzz_buf, sizeof(fuzz_buf))) > 0 ? 1 : 0)
+#define __AFL_INIT() sync()
+#endif
+
+__AFL_FUZZ_INIT();
 
 /*
  * main()
  */
-int main(int argc, char *argv[])
-{
+int main(int argc, char *argv[]) {
+#ifdef __AFL_HAVE_MANUAL_CONTROL
+  __AFL_INIT();
+#endif
+
+  unsigned char *buf = __AFL_FUZZ_TESTCASE_BUF;
+
+  while (__AFL_LOOP(10000)) {
+    puts("loop\n");
+
+    int len = __AFL_FUZZ_TESTCASE_LEN;
+
+    if (len < 8)
+      continue;
+
     pj_caching_pool cp;
     pjmedia_endpt *med_ept;
     pjsip_endpoint *sip_ept;
-    char errmsg[PJ_ERR_MSG_SIZE];
-    pj_status_t code;
-
-    if (argc != 2) {
-	puts("Usage: strerror ERRNUM");
-	return 1;
-    }
-
     pj_log_set_level(3);
 
     pj_init();
-    pj_caching_pool_init(&cp, NULL, 0);
     pjlib_util_init();
+    pj_caching_pool_init(&cp, &pj_pool_factory_default_policy, 0);
     pjnath_init();
-    pjmedia_endpt_create(&cp.factory, NULL, 0, &med_ept);
+//    pjmedia_endpt_create(&cp.factory, NULL, 0, &med_ept);
     pjsip_endpt_create(&cp.factory, "localhost", &sip_ept);
     pjsip_evsub_init_module(sip_ept);
+    pj_pool_t *pool = pj_pool_create(&cp.factory, "test", 4096, 4096, NULL);
+    assert(pool != NULL);
 
-    code = atoi(argv[1]);
-    pj_strerror(code, errmsg, sizeof(errmsg));
+    __attribute__((unused)) volatile pjsip_msg *msg =
+        pjsip_parse_msg(pool, buf, len, NULL);
 
-    printf("Status %d: %s\n", code, errmsg);
-
+    pjsip_endpt_destroy(sip_ept);
+    pj_pool_release(pool);
     pj_shutdown();
-    return 0;
-}
+  }
 
+  return 0;
+}

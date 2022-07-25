@@ -1,0 +1,16 @@
+REFER sips:3ld812adkjw@biloxi.example.com;gr=3413kj2ha SIP/2.0
+Via: SIP/2.0/TLS pc33.atlanta.example.com;branch=z9hG4bKna9
+Max-Forwards: 70
+To: <sips:3ld812adkjw@biloxi.example.com;gr=3413kj2ha>
+From: <sips:transferor@atlanta.example.com>;tag=1928301774
+Call-ID: a84b4c76e66710
+CSeq: 314159 REFER
+Allow: INVITE, ACK, CANCEL, OPTIONS, BYE, REFER, NOTIFY
+Supported: gruu, replaces, tdialog
+Require: tdialog
+Refer-To: <sips:transfertarget@chicago.example.com>
+Target-Dialog: 090459243588173445;local-tag=7553452
+;remote-tag=31kdl4i3k
+Contact: <sips:4889445d8kjtk3@atlanta.example.com;gr=723jd2d>
+Content-Length: 0
+

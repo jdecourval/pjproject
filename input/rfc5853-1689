@@ -1,0 +1,10 @@
+INVITE sip:callee@u2.domain.example.com SIP/2.0
+Via: SIP/2.0/UDP p3.middle.example.com;branch=z9hG4bK48jq9w174131.1
+Via: SIP/2.0/UDP p2.example.com;branch=z9hG4bK18an6i9234172.1
+Via: SIP/2.0/UDP p1.example.com;branch=z9hG4bK39bn2e5239289.1
+Via: SIP/2.0/UDP u1.example.com;branch=z9hG4bK92fj4u7283927.1
+Contact: sip:caller@u1.example.com
+Record-Route: <sip:p3.middle.example.com;lr>
+Record-Route: <sip:p2.example.com;lr>
+Record-Route: <sip:p1.example.com;lr>
+

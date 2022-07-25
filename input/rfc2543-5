@@ -1,0 +1,10 @@
+INVITE sip:watson@boston.bell-telephone.com SIP/2.0
+Via: SIP/2.0/UDP 169.130.12.5
+Authorization: PGP version=5.0, signature=...
+From: A. Bell <sip:a.g.bell@bell-telephone.com>
+To: T. A. Watson <sip:watson@bell-telephone.com>
+Call-ID: 187602141351@worcester.bell-telephone.com
+Subject: Mr. Watson, come here.
+Content-Type: application/sdp
+Content-Length: ...
+

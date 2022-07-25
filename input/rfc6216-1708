@@ -1,0 +1,18 @@
+MESSAGE sips:kumiko@example.net:5061 SIP/2.0
+<allOneLine>
+Via: SIP/2.0/TLS 192.0.2.2:15001;
+branch=z9hG4bK-d8754z-c785a077a9a8451b-1---d8754z-;
+rport=50738
+</allOneLine>
+Max-Forwards: 70
+To: <sips:kumiko@example.net:5061>
+From: <sips:fluffy@example.com:15001>;tag=1a93430b
+Call-ID: OTZmMDE2OWNlYTVjNDkzYzBhMWRlMDU4NDExZmU4ZTQ.
+CSeq: 4308 MESSAGE
+<allOneLine>
+Accept: multipart/signed, text/plain, application/pkcs7-mime,
+application/sdp, multipart/alternative
+</allOneLine>
+Content-Type: text/plain
+Content-Length: 6
+

@@ -1,0 +1,4 @@
+INVITE sip:alice@atlanta.com SIP/2.0
+or
+| SIP/2.0 603 Declined
+

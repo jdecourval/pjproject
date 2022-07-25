@@ -1,0 +1,7 @@
+SIP/2.0 200 OK
+Record-Route: <sip:[2001:db8::1];lr>
+Record-Route: <sip:192.0.2.254:5060;lr>
+From: Alice <sip:alice@atlanta.example.com>;tag=1234
+To: Bob <sip:bob@biloxi.example.com>;tag=4567
+Contact: <sip:bob@[2001:db8::33]>
+

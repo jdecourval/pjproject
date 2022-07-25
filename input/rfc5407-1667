@@ -1,0 +1,9 @@
+ACK sip:sip:bob@client.biloxi.example.com SIP/2.0
+Via: SIP/2.0/UDP client.atlanta.example.com:5060;branch=z9hG4bK230f21
+Max-Forwards: 70
+From: Alice <sip:alice@atlanta.example.com>;tag=9fxced76sl
+To: Bob <sip:bob@biloxi.example.com>;tag=8321234356
+Call-ID: 3848276298220188511@atlanta.example.com
+CSeq: 2 ACK
+Content-Length: 0
+

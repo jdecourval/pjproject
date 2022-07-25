@@ -1,0 +1,9 @@
+SIP/2.0 100 Trying
+Via: SIP/2.0/UDP client.a.example.com:5060;branch=z9hG4bK74bf9
+;received=192.0.2.101
+From: <sip:+13145551111@a.example.com>;tag=9fxced76sl
+To: <tel:+19725552222>
+Call-ID: 2xTb9vxSit55XU7p8@a.example.com
+CSeq: 2 INVITE
+Content-Length: 0
+

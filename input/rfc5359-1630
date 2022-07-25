@@ -1,0 +1,14 @@
+SIP/2.0 407 Proxy Authentication Required
+Via: SIP/2.0/TLS client.atlanta.example.com:5061
+;branch=z9hG4bK74bf9
+;received=192.0.2.103
+From: Alice <sips:alice@atlanta.example.com>;tag=1234567
+To: Bob <sips:bob@biloxi.example.com>;tag=90210
+Call-ID: 12345600@atlanta.example.com
+CSeq: 1 INVITE
+Proxy-Authenticate: Digest realm="example.com",
+nonce="ea9c8e88df84f1cec4341ae6cbe5a359",
+qop="auth", nc=00000001, cnonce="0a4f113b",
+opaque="", stale=FALSE, algorithm=MD5
+Content-Length: 0
+

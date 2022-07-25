@@ -1,0 +1,11 @@
+ACK sip:ngw1@a.example.com SIP/2.0
+Via: SIP/2.0/UDP ss1.a.example.com:5060;branch=z9hG4bK2d4790.1
+Max-Forwards: 70
+From: Alice <sip:+13145551111@ss1.a.example.com;user=phone>
+;tag=9fxced76sl
+To: Bob <sip:+19725552222@ss1.a.example.com>;user=phone>
+;tag=123456789
+Call-ID: 2xTb9vxSit55XU7p8@a.example.com
+CSeq: 1 ACK
+Content-Length: 0
+

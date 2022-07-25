@@ -1,0 +1,6 @@
+SIP/2.0 200 OK
+From: Bob <sip:bob@biloxi.example.com>;tag=a73kszlfl
+To: Bob <sip:bob@biloxi.example.com>;tag=34095828jh
+CSeq: 1 REGISTER
+Contact: <sips:bob@client.biloxi.example.com>;expires=60
+

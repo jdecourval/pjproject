@@ -1,0 +1,16 @@
+INVITE sip:bob@bobpc.example.com SIP/2.0
+Via: SIP/2.0/TCP pb.example.com:5060;branch=z9hG4bKbalouba.2
+Via: SIP/2.0/TCP proxya.example.net:5060;branch=z9hG4bKpouet
+Via: SIP/2.0/TCP alice-1.example.net:5060;branch=z9hG4bKprout
+Max-Forwards: 68
+To: Bob <sip:bob@example.com>
+From: Alice <sip:alice@example.net>;tag=8675309
+Call-ID: lzksjf8723k@sodk6587
+CSeq: 1 INVITE
+Route: <sip:laksdyjanseg237+fsdf+uy623hytIJ8@eb.example.com;lr;ob>
+Record-Route: <sip:pb.example.com;lr>, <sip:proxya.example.net;lr>
+Contact: <sip:alice@alice-1.example.net>
+Content-Type: application/sdp
+Content-Length: {as per SDP}
+{SDP not shown}
+

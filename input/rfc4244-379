@@ -1,0 +1,13 @@
+INVITE sip:UserA@ims.example.com SIP/2.0
+Via: SIP/2.0/UDPims.example.com:5060;branch=1
+Via: SIP/2.0/UDP example.net:5060
+Record-Route: <sip:UserA@example.com>
+From: BigGuy <sip:User1@example.net>
+To: LittleGuy <sip:UserA@example.com>
+Call-Id: 12345600@example.net
+CSeq: 1 INVITE
+History-Info: <sip:UserA@ims.example.com>; index=1
+Contact: BigGuy <sip:User1@example.net>
+Content-Type: application/sdp
+Content-Length: <appropriate value>
+

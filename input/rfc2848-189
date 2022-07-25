@@ -1,0 +1,11 @@
+INVITE sip:R2FB@pint.wwos.skynet.com  SIP/2.0
+Via: SIP/2.0/UDP 169.130.12.5
+To: sip:1-900-123-456-7@wwos.skynet.com;user=phone;
+phone-context=+1
+From: sip:fred.football.fan@skynet.com
+Call-ID: 19971205T234505.56.78@chinet.net
+CSeq: 4723 INVITE
+Subject: Wonderful World Of Sports NFL Final Scores
+Content-type: application/sdp
+Content-Length: 219
+

@@ -1,0 +1,3 @@
+SIP/2.0 200 OK
+Contact: <sip:server33.example.com>;msgserver;automata;attendant
+

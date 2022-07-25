@@ -1,0 +1,4 @@
+SIP/2.0 200 OK
+Via: SIP/2.0/UDP 10.1.1.1:4540;received=192.0.2.1;rport=9988
+;branch=z9hG4bKkjshdyff
+
